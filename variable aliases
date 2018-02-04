@@ -1,0 +1,27 @@
+$black =& $white;
+
+$bigLongVariableName = "PHP";
+$short =& $bigLongVariableName;
+$bigLongVariableName .= " rocks!";
+print "\$short is $short\n";
+print "Long is $bigLongVariableName\n";
+$short is PHP rocks!
+
+=Long is PHP rocks!
+
+$short = "Programming $short";
+print "\$short is $short\n";
+print "Long is $bigLongVariableName\n";
+$short is Programming PHP rocks!
+
+=Long is Programming PHP rocks!
+
+$white = "snow";
+$black =& $white;
+unset($white);
+print $black;
+
+
+=snow
+
+
