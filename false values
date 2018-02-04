@@ -1,0 +1,7 @@
+• The keyword false
+• The integer 0
+• The floating-point value 0.0
+• The empty string ("") and the string "0"
+• An array with zero elements
+• An object with no values or functions
+• The NULL value
