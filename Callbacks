@@ -1,0 +1,6 @@
+$callback = function myCallbackFunction()
+{
+echo "callback achieved";
+}
+call_user_func($callback);
+callback achieved
