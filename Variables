@@ -1,0 +1,16 @@
+$day = 60 * 60 * 24;
+echo "There are {$day} seconds in a day.\n";
+
+
+= There are 86400 seconds in a day.
+
+
+// A variable whose value has not been set behaves like the NULL value:
+
+
+if ($uninitializedVariable === NULL) {
+echo "Yes!";
+}
+
+
+= Yes!
