@@ -1,0 +1,14 @@
+$res = database_connect(); // fictitious database connect function
+database_query($res);
+$res = "boo";
+// database connection automatically closed because $res is redefined
+
+function search() {
+$res = database_connect();
+database_query($res);
+}
+
+// Use the is_resource() function to test whether a value is a resource:
+if (is_resource($x)) {
+// $x is a resource
+}
