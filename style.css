@@ -1,8 +1,8 @@
 <style>
-body { color: #3f312e; background:#ecd078 url('images/test1.png') repeat; font: 14px Helvetica, Arial, Sans-serif; }
+body { color: #3f312e; background:#ecd078 url('images/*.png') repeat; font: 14px Helvetica, Arial, Sans-serif; }
 a { color: 4f4f4f; }
 img { border: none; }
-#headrer{ width: 960px; min-height: 150px; margin: 0 auto; background: url ('images/me1.png'); }
+#headrer{ width: 960px; min-height: 150px; margin: 0 auto; background: url ('images/*.png'); }
 #navigation { width: 960px; margin: 0 auto; position: relative; top: 4px; }
 #navigation ul { margin: 0; padding: 0; list-style-type: none; }
 #navigation ul li { display: inline; margin-right: 3px; }
